@@ -1,0 +1,11 @@
+- COMANDOS PRINCIPALES -
+
+mkdir (Crea un directorio)
+cd (Cambia de directorio)
+cd .. (Subir un nivel en el directorio)
+ls (Lista los elementos del directorio o carpeta)
+touch (Crea un nuevo archivo)
+rm (Elimina un archivo)
+rm -r (Elimina -recursivo- un directorio o carpeta)
+clear (Limpia la pantalla)
+nano (Editor de Linux)

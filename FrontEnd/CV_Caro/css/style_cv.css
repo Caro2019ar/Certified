@@ -1,0 +1,62 @@
+/* 
+    Las propiedades margin, margin-top y max-width aún no las vimos 
+    Las unidades de medida mas usadas son px, %, em y rem
+    No se preocupen que las repasaremos la proxima clase
+*/
+
+body {
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    margin: 0;  
+}
+
+/* HEADER y MAIN */
+/*---------------*/
+header {
+    background-color: #ddd;
+    line-height: 2;
+    text-align:  center;
+}
+main{
+    margin: 50px auto;
+    max-width: 800px;           
+}
+section{
+    margin-top: 30px;
+}
+h1,h2 {
+    /* acá agrupamos las propiedades que tienen en común */
+    background-color: #BFBFBF;
+    font-family: Cambria, Times, serif;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+h1 {
+    color: #1F497D;
+    font-size: 24px; 
+    word-spacing: 1.5em;
+}
+h2 {
+    color: #632423;
+    font-size: 18px;
+}
+li {
+    font-style: normal;
+    font-variant: small-caps;
+}
+.item-detail {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* FOOTER */
+/*--------*/
+footer{
+    background-color: #1F497D;
+    color: #ddd;
+    font-size: 24px; 
+    text-align: center;
+}
+.img-link{
+    width: 20px;
+    height: 20px;
+}

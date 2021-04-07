@@ -1,0 +1,100 @@
+********* MEMORIAS - Almacenar y recordar sucesos
+    + Memoria Principal: + velocidad -almacenamiento. 1o a ser cargado. 
+    + Memoria Secundaria: + almacenamiento, no volatil.Ejemplos: HDD, SSD, pen-drive, disco
+
+Memoria principal:
+    +  para almacenar datos o información de forma temporal.
+    + El procesador puede acceder directamente a los datos almacenados.
+    + Puede ser de tipo volátil o no volátil. En el primer caso, la información solamente se guarda mientras la computadora esté encendida. En el segundo caso, la información permanece aunque la computadora se apague.
+    + Su capacidad es limitada. Actualmente su capacidad puede llegar hasta los 64 gigabytes.
+    + El acceso a la memoria principal se realiza a través del bus de datos.
+    + Su velocidad es mayor que la memoria secundaria.
+    + La memoria primaria tiene un mayor costo que la memoria secundaria.
+
+*TIPOS DE MEMORIA PRINCIPAL:
+    +ROM: instrucciones para compu iniciarse, solo puede ser leída
+    +Caché: +veloz. la CPU copia en la Caché los datos más importantes que vá utilizar de la memoria RAM
+    +RAM
+
+*TIPOS DE MEMORIA SECUNDARIAS:
+    + Magnética - cinta magnética(de peliculas antigas?), diskette, disco duro. Uno o más discos que giran a velocidad constante (recubiertos de membrana magnetica)
+    + Óptica - CD, DVD, Blu-ray - puntos de luz/sin luz
+    + Estado Sólido - flash, pendrive, SSD (mediante pulsos eléctricos) - transistores que atrapan o eliminan cargas eléctricas. + veloz y costosas.
+    "Los discos sólidos están compuestos por transistores que cambian unos a ceros de manera magnética los bits" Los SSD son 10veces más rápidos que los HDD. M2 es una variante de disco sólido.
+
+*LA MEMORIA RAM:
+    Qué es un slot? la RAM se conecta a la CPU a través de ranura slot.
+    La CPU puede acceder a la memoria RAM a través del 
+        - SINGLE CHANNEL: Para el acceso a la información en la RAM se utiliza una única señal a un ancho de banda y frecuencia determinada.
+        - DUAL CHANNEL: Permite el acceso simultáneo a dos módulos de memoria. Para ello, todos los módulos de memoria deben tener la misma capacidad, velocidad, frecuencia, latencia y fabricante.
+        *Como se mide la veloc. y capacidad?
+        Las velocidades se suman > Si la velocidad de cada módulo es de 1600 Mhz, la velocidad total será de 3200 Mhz.
+        La capacidad se suma > Si cada módulo tiene una capacidad de 8 GB, la capacidad total será de 16 GB.
+    +CARACTERISTICAS DE LAS RAM:
+    - Velocidad: Las computadoras electrónicas digitales no tenían sistema operativo. Los programas, por lo regular, manejaban un bit a la vez, en columnas de switchs mecánicos. Los programas de lenguaje máquina manejaban tarjetas perforadas.
+    - Capacidad: se mide en gigabytes (GB)
+    - Latencia: Es la cantidad de ciclos de reloj que transcurren entre una petición y su respuesta.
+    - Voltaje: en Voltios. la energía consumida por el módulo de RAM.
+    *Frecuencia = velocidad de la memoria en resumen
+
+******* UNIDADES DE MEDIDA
+ 1 bit      - 0 o 1
+ 1 byte     - 8bits
+ 1 kilobyte - 1024 Bytes
+ 1 megabyte - 1024 KBytes
+ 1 gigabyte - 1024 MBytes
+ 1 terabyte - 1024 GBytes
+ 1 petabyte - 1024 TBytes
+ 1 exabyte  - 1024 PBytes
+ 1 zettabyte- 1024 EBytes
+ 1 yottabyte- 1024 ZBytes
+
+******* MEMORIA PRINCIPAL
+REGISTROS DE LA CPU
+ + REGISTRO: es una memoria de alta velocidad que se utiliza en los procesadores para acceder a info + rápido. La CPU tiene 5 registros internos:
+    1. PC: program counter
+    2. IR: instructions register
+    3. MAR: memory address register
+    4. MDR: memory data register
+    5. Accumulator
+
+CACHÉ DE LA CPU
+ + L1(más cercana al procesador), L2, L3 (más lejos del procesador): orden de jerarquía por cercanía al procesador, velocidad y capacidad.
+
+
+TIPOS DE RAM
+ + FPM (Fast Page Mode) RAM: espera durante todo el proceso de localización de un bit de datos por columna y fila, luego lee el bit antes de comenzar con el siguiente. Transferencia máxima 176Mbps
+ + SDR (Single data rate) RAM: tiene tiempos de acceso de entre 25 y 10nanosegundos, están em módulos DIMM 
+ + R(Rambus) DRAM: funciona en paralelo, permite alcanzar velocidad de 800MHs o 1.600Mbps, genera calos a altas velocidades.
+ + V(video) RAM: 2puertos para que los datos de video puedan escribirse al mismo tiempos
+ + EDO(extende data output) RAM: no espera a que finalice el procesamiento del primer bit para continuar con el siguiente.
+ + DDR RAM: lanzada en 2000, velocidad 100-200MHz, densidad 128Mb
+ + DDR2 RAM: lanzada 2004, veloc. 533MHz
+ + DDR3 RAM: lanzada 2007, veloc. 1066MHz.Perfiles XMP. Densidad hasta 8GB
+ + DDR4 RAM: 2014, veloc. 2133MHz, dens. 32GB
+ + DDR5 RAM: 2020, veloc 4800MHz, dens. 128GB
+
+
+******** FORMAS DE ALMACENAMIENTO DE LOS DATOS
+
++ SISTEMA DE NUMERACION: conjunto de símbolos y reglas que permiten construir todos los números. Dentro de ello se puese hacer 2 grandes divisiones:
+    - Sist Numerico no posicional: sistema romano, el valor de los símbolos que componen el sistema es fijo, no depende de la posición.
+    - Sist Numerico posicional: el valor depende del valor asignado y de la posición.
+
+BASE: cantidad de dígitos que lo conforman, ejemplo base 10 sistema de 10 símbolos de 0 a 9.
+
+FRAGMENTACIÓN
+- Es el espacio que queda desperdiciado al momento de hacer la partición de memoria
+    + Externa: cuando durante el reemplazo de procesos, quedan huecos entre dos o más procesos de manera no contigua, y cada hueco no se puede ocupar con proceso de la lista de espera.
+    + Interna: cuando se reserva más memoria de la que necesita
+
+SEGMENTACIÓN
+- técnica de gestión de memoria.
+    Un programa es un conjunto de componentes lógicos de tamaño variable o un conjunto de segmentos.
+    La segmentación de un programa la realiza un compilador y en ella cada dirección lógica se expresará mediante dos valores: número de segmento (s) y desplazamiento dentro del segmento (d).
+
+PAGINACIÓN (cómo resumir eso?)
+- Es una técnica de gestión que permite asignar la memoria de forma discontinua, se divide la memoria en trozos de tamaño fijo llamados armazones o frames y la lógica en
+bloques de igual tamaño (páginas). 
+    El sistema operativo mantiene internamente una tabla de páginas donde se relaciona cada página cargada en memoria con el frame que la contenga(su dirección inicial en memoria real).El SO analizará cada nuevo trabajo que se disponga a entrar (evalua el número de páginas que ocupa) y buscará en su lista de frames libre un número igual de ellos. Si estos existen, cargará en ellos las páginas del programa y construirá la correspondiente tabla de páginas, actualizando la lista de frames libres. 
+    De esta manera, se logra evitar la fragmentación externa ya que cualquier frame libre es asignable a un trabajo que lo necesite. Por otro lado, seguirá existiendo fragmentación interna puesto que, los trabajos no ocuparán un tamaño múltiplo del tamaño de la página.

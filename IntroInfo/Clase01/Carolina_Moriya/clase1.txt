@@ -1,0 +1,20 @@
+- QUE ES UNA COMPUTADORA:
+
+  Es un dispositivo electrónico capaz de recibir instrucciones y ejecutarlas, estas instrucciones son dadas por un usuario, interpretadas por el sistema operativo
+  y las ejecuta con los recursos que dispone. A estos recursos se los conoce como HARDWARE
+  y todo lo que interpreta y ejecuta los deseos del usuario es el SOFTWARE.
+
+- INTRUDUCCION A LA HISTORIA DE LA INFORMATICA:
+
+    * 1122 (AC) - ábaco en China.
+    * 1642      - Blaise Pascal inventa en Francia la primer calculadora (Pascalina)
+    * 1801      - Joseph Jacquard crea en Francia las tarjetas perforadas, utilizadas para crear diseños de telas complejos.
+    * 1833-1842 - Charles Babbage. Ada Lovelace crea el primer algoritmo.
+    * 1936      - Alan Turing crea la "máquina de Turing", una computadora diseñada para descifrar los mensajes alemanes en la WW2.
+    * 1943      - En USA se crea la ENIAC, una de las primeras computadoras, operadas por "las chicas del refrigerador", consideradas junto a Ada Lovelace las primeras programadoras de la historia.
+    * 1945      - Von Newman diseña la arquitectura que estableció las pautas de cómo debía ser armada una computadora para optimizar sus recursos.
+    * 1940-1950 - Primera generación.
+    * 1950-1960 - Creación del transistor - chip.
+    * 1960-1970 - Creación del microchip.
+    * 1970-1980 - Creación de Windows - Apple - Linux.
+    * 2011      - IBM: era cognitiva.

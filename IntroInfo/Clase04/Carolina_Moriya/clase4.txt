@@ -1,0 +1,10 @@
+
+GitHub: Es una plataforma colaborativa para control de versión.
+Comandos
+- git add . 
+- git commit -m 'texto'
+- git push origin master: sube los cambios al repositorio remoto.
+- git status
+- git clone url : crea una copia/repo de los archivos de un repositorio remoto.
+- git pull origin master : descarga las actualizaciones
+
