@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+	font-family: Roboto, sans-serif;
+
+	/* width: 2056px;
+	height: 5264px; */
+}
+
+main {
+	padding-left: 626px;
+}
+aside {
+	background-color: #1cd1b0;
+	font-size: 48px;
+}
+header {
+	position: sticky;
+	z-index: 15;
+	top: 0;
+}
+
+h1 {
+	background-color: #00669f;
+	font-size: 72px;
+}
+h2 {
+	text-align: center;
+	font-size: 64px;
+	margin-top: 125px;
+}
+.card {
+	width: 805px;
+	height: 1364px;
+	box-sizing: border-box;
+	border-radius: 15px;
+	background-color: #f3f3f3;
+}
+
+.card-header {
+	position: relative;
+}
+
+.heart {
+	position: absolute;
+	z-index: 20;
+	color: red;
+	width: 67px;
+	height: 58px;
+}
+/* ------ Header */
+.super {
+	width: 325px;
+	height: 352px;
+	position: absolute;
+	margin: 300px;
+	background-position: center;
+	border-radius: 50%;
+}
+
+.img-super-1 {
+	background-image: url(../img/batman.jpg);
+}
+/* ------- */
+.back-card {
+	height: 270px;
+}
+.back-card-header {
+	width: 806px;
+	height: 555px;
+	box-sizing: border-box;
+	border-radius: 15px 15px 0 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* position: absolute; */
+}
+.img-back-card {
+	background-image: url(../img/bg-batman.jpg);
+}
+/* ----------BODY */
+.card-body {
+	position: relative;
+	width: 806px;
+	height: 872px;
+}
+.parag {
+	position: absolute;
+	text-align: justify;
+	width: 718px;
+	height: 348px;
+	font-size: 36px;
+	padding: 30px;
+}
+
+.btn {
+	text-align: center;
+	width: 346px;
+	height: 114px;
+	background-color: #00669f;
+	font-size: 36px;
+	color: white;
+	margin-top: 522px;
+	margin-left: 355px;
+}
+
+footer {
+	background-color: #00669f;
+	font-size: 36px;
+	color: white;
+	text-align: center;
+}
