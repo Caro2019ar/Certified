@@ -72,6 +72,10 @@ input {
 	width: 400px;
 	line-height: 40px;
 }
+textarea {
+	margin: 10px;
+	width: 400px;
+}
 select {
 	margin: 10px;
 	width: 400px;
@@ -113,7 +117,6 @@ select {
 	margin: 30px 5px 5px 10px;
 }
 .entrar {
-	/*  */
 	color: black;
 	padding: 1px;
 	background-color: #1cd1b0;
