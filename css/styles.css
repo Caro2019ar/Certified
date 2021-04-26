@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+	font-family: "Inter", sans-serif;
+	text-align: center;
+	color: black;
+}
+aside {
+	font-family: "Karla", sans-serif;
+	background-color: #1cd1b0;
+	font-size: 20px;
+	text-align: left;
+	padding: 10px;
+}
+.fondo {
+	background-image: url("../img/fondo.png");
+	/* background-size: 100vh; */
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.frontend {
+	padding: 5px;
+}
+
+h1 {
+	padding-left: 20px;
+	padding-top: 30px;
+	text-align: left;
+}
+h3 {
+	font-family: "Karla", sans-serif;
+}
+a {
+	display: inline-block;
+	color: #00669f;
+}
