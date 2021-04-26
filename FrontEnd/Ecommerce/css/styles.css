@@ -31,9 +31,9 @@ aside {
 	display: block;
 	position: relative;
 }
-.logo1 {
+/* .logo1 {
 	background: url(../img/logo1.png);
-}
+} */
 .nombre-tienda {
 	font-family: "Roboto", sans-serif;
 	font-size: 26px;
