@@ -1,6 +1,11 @@
 /* Estilos Generales
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;300&display=swap"); */
 
+html,
+body {
+	overflow-x: hidden;
+}
+
 :root {
 	--color-principal: #062f5b;
 	--color-secundario: #679dd6;
@@ -193,7 +198,8 @@ footer ul {
 	}
 	nav,
 	nav ul {
-		padding: 7px;
+		padding: 10px;
+		font-size: 1.3rem;
 	}
 	.bg-header {
 		height: 30vh;
@@ -210,30 +216,41 @@ footer ul {
 		flex-direction: column;
 	}
 	h1 {
-		font-size: 2.1rem;
+		font-size: 4rem;
 		text-align: center;
 	}
 	h2 {
-		font-size: 1.5rem;
+		font-size: 2.5rem;
+		line-height: 8rem;
 	}
 	#card-section > div {
 		flex-direction: column;
-		width: 100vw;
 	}
-	.card-section {
+	#card-section {
 		flex-direction: column;
+		padding: 0;
 	}
 	.card {
-		width: 94vw;
-		margin: 0 0 2vw;
+		width: 96vw;
+		margin: 0 1 3vw;
 	}
-	.formulario-contacto,
+	.card h3 {
+		font-size: 2rem;
+	}
+	.card p {
+		font-size: 1.3rem;
+	}
+	.section-contacto {
+		padding: 1px;
+	}
 	.formulario {
-		width: 97vw;
+		width: 100vw;
+		margin: 2px;
 	}
 	.contacto {
 		width: 100vw;
 		text-align: center;
+		font-size: 1.6rem;
 	}
 	footer {
 		display: flex;
@@ -254,14 +271,15 @@ footer ul {
 		font-size: 10px;
 	}
 	nav {
-		height: 7vh;
+		height: 9vh;
 	}
 	nav,
 	nav ul {
+		font-size: 1.7rem;
 		padding: 7px;
 	}
 	.bg-header {
-		height: 50vh;
+		height: 80vh;
 	}
 	header {
 		width: 100vw;
@@ -269,28 +287,40 @@ footer ul {
 		margin: 0;
 	}
 
-	section {
-		padding: 10px;
+	#card-section {
+		padding: 2px;
+	}
+	.section-contacto {
+		padding: 2px;
 	}
 	section > div {
 		flex-direction: column;
 	}
 	h1 {
-		font-size: 2.1rem;
+		font-size: 2.5rem;
 	}
 	h2 {
-		font-size: 1.5rem;
-		text-align: center;
+		font-size: 2.8rem;
+		line-height: 8rem;
 	}
 	#card-section > div {
 		flex-direction: column;
-		width: 100vw;
 	}
 	.card {
-		width: 90vw;
-		margin: 5px;
+		width: 90%;
+		margin-bottom: 5vw;
+	}
+	.card h3 {
+		font-size: 2rem;
+	}
+	.card p {
+		font-size: 1.6rem;
 	}
 
+	.formulario {
+		width: 100vw;
+		padding: 3vw;
+	}
 	.contacto {
 		width: 100vw;
 		text-align: center;
@@ -305,6 +335,6 @@ footer ul {
 		padding-top: 20px;
 	}
 	.news-letter {
-		width: 70vw;
+		width: 80vw;
 	}
 }
