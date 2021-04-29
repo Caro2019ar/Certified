@@ -1,5 +1,5 @@
-/* Estilos Generales */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;300&display=swap");
+/* Estilos Generales
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;300&display=swap"); */
 
 :root {
 	--color-principal: #062f5b;
@@ -189,18 +189,18 @@ footer ul {
 		font-size: 12px;
 	}
 	nav {
-		height: 10vh;
+		height: 7vh;
 	}
 	nav,
 	nav ul {
-		padding: 10px;
+		padding: 7px;
 	}
 	.bg-header {
-		height: 40vh;
+		height: 30vh;
 	}
 	header {
 		width: 100vw;
-		padding: 0;
+		/* padding: 10px; */
 		margin: 0;
 	}
 	section {
@@ -211,25 +211,25 @@ footer ul {
 	}
 	h1 {
 		font-size: 2.1rem;
+		text-align: center;
 	}
 	h2 {
 		font-size: 1.5rem;
-		text-align: center;
 	}
 	#card-section > div {
 		flex-direction: column;
 		width: 100vw;
 	}
+	.card-section {
+		flex-direction: column;
+	}
 	.card {
-		width: 95vw;
-		margin: 5px;
+		width: 94vw;
+		margin: 0 0 2vw;
 	}
 	.formulario-contacto,
 	.formulario {
-		width: 95vw;
-	}
-	.formulario {
-		padding: 0px;
+		width: 97vw;
 	}
 	.contacto {
 		width: 100vw;
@@ -238,6 +238,7 @@ footer ul {
 	footer {
 		display: flex;
 		flex-direction: column;
+		width: 100vw;
 	}
 	h4 {
 		width: 100vw;
@@ -253,20 +254,21 @@ footer ul {
 		font-size: 10px;
 	}
 	nav {
-		height: 10vh;
+		height: 7vh;
 	}
 	nav,
 	nav ul {
-		padding: 10px;
+		padding: 7px;
 	}
 	.bg-header {
-		height: 20vh;
+		height: 50vh;
 	}
 	header {
 		width: 100vw;
 		padding: 0;
 		margin: 0;
 	}
+
 	section {
 		padding: 10px;
 	}
@@ -285,7 +287,7 @@ footer ul {
 		width: 100vw;
 	}
 	.card {
-		width: 95vw;
+		width: 90vw;
 		margin: 5px;
 	}
 
