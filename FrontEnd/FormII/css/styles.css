@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+}
+
+body {
+	--color-blue: #00669f;
+	margin: auto;
+}
+
+aside {
+	font-family: "Roboto", sans-serif;
+	background-color: #1cd1b0;
+	font-size: 18px;
+	padding: 5px;
+}
+
+nav {
+	box-sizing: border-box;
+	margin-bottom: 60px;
+}
+nav ul {
+	margin: 0px;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	background-color: #001d2d;
+	line-height: 40px;
+	text-align: right;
+}
+nav ul li {
+	padding-right: 45px;
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a {
+	color: white;
+}
+
+.logo-y-nombre-tienda {
+	background-color: var(--color-blue);
+	height: 70px;
+	padding-left: 2%;
+	position: sticky;
+	top: 0px;
+	z-index: 20;
+	display: block;
+	position: relative;
+}
+.logo1 {
+	background: url(../img/logo1.png);
+}
+.nombre-tienda {
+	font-family: "Roboto", sans-serif;
+	font-size: 22px;
+	color: white;
+	padding-top: 25px;
+	display: inline;
+	margin-top: 0;
+	position: absolute;
+}
+/* -------------DIV LOGIN----------- */
+fieldset {
+	border-style: none;
+}
+.caja-mayor {
+	background-color: var(--color-blue);
+	box-sizing: border-box;
+	color: white;
+	margin: auto;
+	width: 780px;
+	height: 660px;
+	position: relative;
+	border-radius: 25px;
+}
+
+.anadi {
+	text-align: center;
+	font-family: "Inter", sans-serif;
+	color: white;
+	font-size: 30px;
+	line-height: 28px;
+	margin: 10px;
+}
+
+.agrega {
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	margin-left: 150px;
+}
+.col1 {
+	height: 450px;
+	width: 300px;
+	display: inline-block;
+	margin-left: 60px;
+}
+.col2 {
+	margin-left: 20px;
+	position: absolute;
+	height: 450px;
+	width: 300px;
+	display: inline-block;
+}
+#inputUsuario {
+	border-radius: 15px;
+	display: inline;
+	width: 100%;
+	height: 50px;
+}
+
+.selectEspecie {
+	border-radius: 15px;
+	display: inline;
+	margin: 0px;
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+}
+
+label {
+	line-height: 50px;
+	font-size: 16px;
+}
+#fecha {
+	height: 50px;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.inputFile::-webkit-file-upload-button {
+	visibility: hidden;
+	height: 60px;
+	width: 70px;
+}
+.inputFile::before {
+	content: "Selecionar archivo";
+	color: black;
+	display: inline;
+	background-color: #cecece;
+	border-radius: 5px;
+	padding: 8px 50px 8px 10px;
+	cursor: pointer;
+	width: 70%;
+	border-style: none;
+}
+.span-file {
+	background-color: var(--color-blue);
+	display: inline;
+	font-size: 12px;
+	position: absolute;
+	margin-left: -90px;
+	margin-top: 20px;
+	width: 150px;
+	z-index: 10;
+	color: black;
+}
+textarea {
+	border-radius: 15px;
+	margin-top: 30px;
+	width: 100%;
+	height: 250px;
+	padding: 20px;
+}
+
+.poderes {
+	height: 130px;
+	width: 300px;
+	font-size: 14px;
+}
+.poderes label[for="Especie"] {
+	display: block;
+	margin-top: 15px;
+	line-height: 30px;
+}
+.poderes input {
+	margin: 5px 10px;
+}
+.div-tipo-personaje {
+	width: 300px;
+	font-size: 14px;
+}
+.div-tipo-personaje input {
+	margin: 5px 10px;
+}
+.div-button {
+	position: relative;
+	width: 600px;
+	margin: 25px;
+}
+.buttonAnadir {
+	text-align: center;
+	border-style: none;
+	margin-left: 200px;
+	border-radius: 15px;
+	width: 320px;
+	height: 60px;
+	background-color: #1cd1b0;
+}
+.buttonAnadir span {
+	line-height: 28px;
+	color: black;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+a {
+	color: black;
+}
+footer {
+	background-color: var(--color-blue);
+	height: 50px;
+	display: block;
+}
+
+#derechos {
+	font-family: "Roboto", sans-serif;
+	padding: 10px 25px 10px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+}

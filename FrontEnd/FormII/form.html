@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <aside>20% de descuento en todos los productos!</aside>
+            <div class="logo-y-nombre-tienda"><img class="logo1"
+                    src="./img/logo1.png"
+                    alt='imagen de tienda'>
+                <div class="nombre-tienda">Nombre Tienda</div>
+            </div>
+            <nav class="barra"><ul><li><a href="#">Contacto</a></li><li><a
+                            href="#">Registrarme</a></li><li><a href="#">Ingresar</a></li></ul>
+            </nav>
+        </header>
+        <form action="anadir.html">
+            <div class="caja-mayor">
+                <fieldset>
+                    <h2 class="anadi">Añadí tu super!</h2>
+                    <span class="agrega">Agregá tu personaje favorito
+                        completando las opciones</span>
+                    <div class="col1">
+                        <label for="inputUsuario">*Nombre</label>
+
+                        <input id="inputUsuario"
+                            name="usuario"
+                            oninvalid="setCustomValidity('Porfa')">
+                        <br>
+                        <label for="fecha" value="Fecha">Fecha</label>
+                        <br>
+                        <input id="fecha" type="date">
+                        <br>
+                        <textarea name="descripcion" id="descripcion"
+                            placeholder="Descripción"></textarea>
+                    </div>
+                    <div class="col2">
+                        <label for="Especie">*Especie</label>
+                        <select class="selectEspecie" name="especie"
+                            value="especie">
+                            <option value="mamifero">Mamífero</option>
+                            <option value="reptil">Réptil</option>
+                            <option value="indefinido">Indefinido</option>
+                        </select>
+                        <label>Agregar foto</label>
+                        <input class="inputFile" type="file" name="inputFile"><span
+                            class="span-file"> No se eligió archivo</span>
+                        <div class="poderes">
+                            <label for="Especie">Poderes</label>
+                            <input type="checkbox" name="poderes"
+                                value="volar">Volar
+                            <br>
+                            <input type="checkbox"
+                                name="poderes"
+                                value="superinteligencia"> Superinteligencia
+                            <br>
+                            <input type="checkbox" name="poderes"
+                                value="Rayo">
+                            Vista
+                            de rayo láser
+                            <br>
+                            <input type="checkbox" name="poderes"
+                                value="Billetera"> Billetera gorda
+                            <br>
+                        </div>
+                        <hr>
+                        <div class="div-tipo-personaje">
+                            <label for="tipo-personaje">Tipo de personaje</label>
+                            <br>
+                            <input type="radio" name="tipo-personaje"
+                                value="heroe">Héroe / Heroina<br>
+                            <input type="radio" name="tipo-personaje"
+                                value="vilano">Villano / Villana
+                        </div>
+                    </div>
+                    <div class="div-button">
+                        <button class="buttonAnadir" type="submit"
+                            value="Anadir"><span>Añadir</span></button>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+        <footer>
+            <p id="derechos">Todos los derechos reservados a FRONT END 1</p>
+        </footer>
+    </body>
+</html>
