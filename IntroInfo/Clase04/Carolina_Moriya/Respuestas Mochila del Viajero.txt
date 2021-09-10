@@ -1,7 +1,0 @@
-Mochila del Viajero:
-
-• Linus Torvalds inventó Git para ayudar sus proyectos de desarrollo de sistemas en 2005.
-
-• GitHub hoy pertenece a Microsoft. El motivo es proporcionar más herramientas a desarrolladores.
-
-• Github tiene una versión para Desktop, además de su página web donde se puede subir o bajar archivos.
