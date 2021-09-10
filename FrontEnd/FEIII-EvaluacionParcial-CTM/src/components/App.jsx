@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import data from "../data.json";
+import data from "./data.json";
 import Historia from "./Historia.jsx";
 import Recordatorio from "./Recordatorio.jsx";
 

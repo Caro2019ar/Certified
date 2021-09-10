@@ -1,7 +1,11 @@
 import React from "react";
-// import data from "../data.json";
 
 class Historia extends React.Component {
+	ultimaHistoria = () => {
+		if (Number(this.props.historiaActual[1]?.split("", 1)) > 4) {
+			return alert("FIN ");
+		}
+	};
 	render() {
 		const { historiaActual } = this.props;
 		return (
@@ -16,6 +20,7 @@ class Historia extends React.Component {
 									let idNum = Number(historiaActual[1]?.split("", 1));
 									idNum++;
 									this.props.onSelect(`${idNum}a`);
+									this.ultimaHistoria();
 								}}
 							>
 								A
@@ -29,6 +34,7 @@ class Historia extends React.Component {
 									let idNum = Number(historiaActual[1]?.split("", 1));
 									idNum++;
 									this.props.onSelect(`${idNum}b`);
+									this.ultimaHistoria();
 								}}
 							>
 								B
