@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import data from "./data.json";
-import Historia from "./components/Historia.jsx";
-import Recordatorio from "./components/Recordatorio.jsx";
+import data from "../data.json";
+import Historia from "./Historia.jsx";
+import Recordatorio from "./Recordatorio.jsx";
 
 class App extends Component {
 	constructor(props) {
